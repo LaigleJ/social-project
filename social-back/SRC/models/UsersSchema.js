@@ -11,7 +11,8 @@ export const UsersSchema = new mongoose.Schema({
         required: true
     },
     avatarUrl: {
-        type: String    }
+        type: String    
+    }
 });
 
 export default mongoose.model("users", UsersSchema);

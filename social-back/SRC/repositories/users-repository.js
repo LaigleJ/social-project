@@ -7,7 +7,7 @@ export const UsersRepository = {
         return savedUser;
     },
     findByEmail: async (email) => {
-        const userEmail = await UsersSchema.findOne(email);
-        return userEmail;
+        const saveFromDB = await UsersSchema.findOne({email});
+        return saveFromDB;
     },
 };
