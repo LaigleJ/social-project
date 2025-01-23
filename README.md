@@ -1,14 +1,14 @@
 Execice 1:
-Créer un schema pour l'utilisateur:
--- email: string, required et unique
--- password: string, required
--- avatarURL: string
+* Créer un schema pour l'utilisateur:
+* -- email: string, required et unique
+* -- password: string, required
+* -- avatarURL: string
 
-Créer le model a partir du schema
+* Créer le model a partir du schema
 
-Créer un repository avec les methode:
-findByEmail: Récupere l'utilisateur avec son email
-create: Créer un utilisateur
+* Créer un repository avec les methode:
+* findByEmail: Récupere l'utilisateur avec son email
+* create: Créer un utilisateur
 
 Créer un routeur pour les utilisateur:
 un controller sur la methode POST:
